@@ -142,7 +142,7 @@
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 600;
 	}
 
 	em, i {
@@ -1131,7 +1131,7 @@
 				.item header a:before {
 					content: '';
 					display: block;
-					position: absolute;
+					position: relative;
 					top: 0;
 					left: 0;
 					width: 100%;
@@ -1294,10 +1294,11 @@
 		-ms-flex-direction: column;
 		flex-direction: column;
 		padding: 8em 0 6em 0;
-		background-image: url("../../images/img_00.jpg");
+		background-image: url("../../images/img_00_crop0.jpg");
 		background-size: auto;
 		background-position: center;
 		background-attachment: fixed;
+		background-position-y: top;
 		text-align: center;
 		position: relative;
 		cursor: default;
