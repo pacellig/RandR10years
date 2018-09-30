@@ -1159,8 +1159,7 @@
 				-webkit-pointer-events: none;
 				-ms-pointer-events: none;
 				pointer-events: none;
-				font-style: normal;
-				font-size: 25px;
+				font-style: bold;
 			}
 
 	.items {
